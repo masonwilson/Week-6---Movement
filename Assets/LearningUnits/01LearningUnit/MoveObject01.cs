@@ -16,8 +16,6 @@ public class MoveObject01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // My position equals my position PLUS 
-	    // where I want to be by the end of this frame...
-        transform.position = transform.position + Vector3.zero;
+        transform.Translate(moveDirection * 1);
     }
 }
